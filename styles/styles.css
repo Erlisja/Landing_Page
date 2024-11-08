@@ -581,6 +581,7 @@ img {
 .card-back {
   transform: rotateY(180deg);
   padding: 10px;
+  color: #333;
 }
 
 .card-img-top {
@@ -606,10 +607,10 @@ img {
 
 }
 
+
 .card-text {
   font-size: 0.8em;
   color: #333;
-
 }
 
 ul.list-group {
