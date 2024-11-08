@@ -574,10 +574,6 @@ img {
   color: #333;
 }
 
-.card-front {
-  color: #333;
-}
-
 .card-back {
   transform: rotateY(180deg);
   padding: 10px;
@@ -608,9 +604,10 @@ img {
 }
 
 
-.card-text {
+.card-text p{
   font-size: 0.8em;
   color: #333;
+
 }
 
 ul.list-group {
@@ -691,6 +688,7 @@ ul.list-group {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+
   }
 
   .card-inner {
@@ -700,6 +698,7 @@ ul.list-group {
     transform-style: preserve-3d;
     border-radius: 10px;
     background-color: rgb(6, 6, 6);
+    color: #333;
   }
 
   .card-back {
@@ -708,13 +707,13 @@ ul.list-group {
     padding: 0;
     justify-content: start;
     text-align: start;
+    color: #333;
   }
 
   ul.list-group {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
     list-style-type: none;
     list-style: none;
     color: #fefefed6;
@@ -746,10 +745,6 @@ ul.list-group {
     text-align: center;
   }
 
-  .card-text {
-    font-size: 1em;
-    color: #fefefed6;
-  }
 }
 
 /* Styling for Tech Stack section */
