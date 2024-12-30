@@ -5,7 +5,7 @@
 
 body {
   font-family: "Playfair Display", serif;
-  background-image: url("../images/stary22.jpg");
+  background-image: url("../images/background.jpg");
   background-size: 100%;
   height: 100vh;
   width: 100%;
@@ -384,7 +384,8 @@ h3 {
 /* Styling for the about section */
 .about-section {
   padding: 50px 10px;
-  background-color: rgba(0, 0, 0, 0.798);
+  /* background-color: rgba(0, 0, 0, 0.798); */
+  background-color: rgba(8, 27, 50, 0.071);
   margin: 150px 50px;
   color: rgb(255, 250, 250);
   border-radius: 10px;
@@ -500,7 +501,8 @@ img {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(247, 245, 245, 0.5);
   border: 1px solid rgba(252, 249, 249, 0.685);
-  background-color: rgba(0, 0, 0, 0.798);
+  /* background-color: rgba(0, 0, 0, 0.798); */
+  background-color: rgba(8, 27, 50, 0.071);
 }
 
 .project-section h2 {
@@ -599,15 +601,12 @@ img {
   font-family: "Playfair Display", serif;
   font-size: 1.2em;
   margin: 30px 0;
-  color: #fbfbfb;
-
 }
 
 
 .card-text p{
   font-size: 0.8em;
   color: #333;
-
 }
 
 ul.list-group {
@@ -760,7 +759,8 @@ ul.list-group {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(247, 245, 245, 0.5);
   border: 1px solid rgba(252, 249, 249, 0.685);
-  background-color: rgba(0, 0, 0, 0.798);
+  /* background-color: rgba(0, 0, 0, 0.798); */
+  background-color: rgba(8, 27, 50, 0.071);
 
 }
 
