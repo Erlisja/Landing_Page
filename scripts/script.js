@@ -46,7 +46,7 @@ const observer = new IntersectionObserver((entries) => {
       if (activeLink) {
         activeLink.classList.add('active');
         // make the active link pink when in view
-        activeLink.style.color = 'rgb(164, 65, 126)';
+        activeLink.style.color = 'rgba(4, 39, 156, 0.865);';
 
       }
     }

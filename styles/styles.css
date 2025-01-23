@@ -11,7 +11,7 @@ body {
   width: 100%;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center center;
 }
 
 @media(max-width: 768px) {
@@ -219,7 +219,7 @@ a .nav-link .active {
 }
 
 .nav-link:hover(.active) {
-  color: rgba(248, 140, 232, 0.865);
+  color: rgba(4, 39, 156, 0.865);
   text-decoration: wavy;
 }
 
@@ -247,22 +247,22 @@ li a {
 }
 
 li a:hover:not(.active) {
-  color: rgba(248, 140, 232, 0.865);
+  color: rgba(4, 39, 156, 0.865);
   text-decoration: wavy;
 }
 
 li a:hover(.active) {
-  color: rgba(248, 140, 232, 0.865);
+  color:rgba(4, 39, 156, 0.865);
   text-decoration: wavy;
 }
 
 .dropdown-menu {
-  background-color: rgba(179, 108, 148, 0.9);
+  background-color: rgba(4, 39, 156, 0.865);
   /* Transparent background */
 }
 
 li .active .nav-item {
-  color: rgb(164, 65, 126);
+  color:rgba(4, 39, 156, 0.865);
 
 }
 
@@ -384,8 +384,7 @@ h3 {
 /* Styling for the about section */
 .about-section {
   padding: 50px 10px;
-  /* background-color: rgba(0, 0, 0, 0.798); */
-  background-color: rgba(8, 27, 50, 0.071);
+  background-color: rgba(8, 27, 50, 0.798);
   margin: 150px 50px;
   color: rgb(255, 250, 250);
   border-radius: 10px;
@@ -403,14 +402,14 @@ h3 {
 #about {
   display: flex;
   flex-direction: row;
-  font-weight: 300;
+  font-weight: 00;
   justify-content: left;
   align-items: left;
 }
 
 .about-me p {
   padding: 30px;
-  font-size: 1.3em;
+  font-size: 1.2em;
   text-align: left;
   font-family: serif;
 
@@ -501,8 +500,7 @@ img {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(247, 245, 245, 0.5);
   border: 1px solid rgba(252, 249, 249, 0.685);
-  /* background-color: rgba(0, 0, 0, 0.798); */
-  background-color: rgba(8, 27, 50, 0.071);
+  background-color: rgba(8, 27, 50, 0.798);
 }
 
 .project-section h2 {
@@ -576,10 +574,13 @@ img {
   color: #333;
 }
 
+.card-front {
+  color: #333;
+}
+
 .card-back {
   transform: rotateY(180deg);
   padding: 10px;
-  color: #333;
 }
 
 .card-img-top {
@@ -601,12 +602,14 @@ img {
   font-family: "Playfair Display", serif;
   font-size: 1.2em;
   margin: 30px 0;
+  color: #fbfbfb;
+
 }
 
-
-.card-text p{
+.card-text {
   font-size: 0.8em;
   color: #333;
+
 }
 
 ul.list-group {
@@ -669,7 +672,7 @@ ul.list-group {
 
   .card:hover .card-inner {
     transform: rotateY(180deg);
-    transition-delay: 0.7s;
+    transition-delay: 0.2s;
   }
 
   /* Hover effect for the card */
@@ -687,7 +690,6 @@ ul.list-group {
     overflow: hidden;
     display: flex;
     flex-direction: column;
-
   }
 
   .card-inner {
@@ -697,7 +699,6 @@ ul.list-group {
     transform-style: preserve-3d;
     border-radius: 10px;
     background-color: rgb(6, 6, 6);
-    color: #333;
   }
 
   .card-back {
@@ -706,13 +707,13 @@ ul.list-group {
     padding: 0;
     justify-content: start;
     text-align: start;
-    color: #333;
   }
 
   ul.list-group {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+
     list-style-type: none;
     list-style: none;
     color: #fefefed6;
@@ -744,6 +745,10 @@ ul.list-group {
     text-align: center;
   }
 
+  .card-text {
+    font-size: 1em;
+    color: #fefefed6;
+  }
 }
 
 /* Styling for Tech Stack section */
@@ -759,7 +764,6 @@ ul.list-group {
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(247, 245, 245, 0.5);
   border: 1px solid rgba(252, 249, 249, 0.685);
-  /* background-color: rgba(0, 0, 0, 0.798); */
   background-color: rgba(8, 27, 50, 0.071);
 
 }
@@ -782,7 +786,8 @@ ul.list-group {
   padding: 50px;
   margin: 10px;
   gap: 100px;
-  background-color: rgba(137, 136, 136, 18.4%);
+  
+  background-color: rgba(8, 27, 50, 0.798);
   margin-bottom: 30px;
   border-radius: 5%;
 }
@@ -1174,6 +1179,9 @@ body.light-theme .projects-div {
   color: #333;
   border: 1px solid #9c9a9a;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+body.light-theme .tech-stack-container{
+ background-color: rgba(252, 249, 249, 0.685);
 }
 
 .body-light-theme .card,
